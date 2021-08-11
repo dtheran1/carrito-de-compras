@@ -34,7 +34,6 @@ export default {
 
     const productos = computed(() => store.state.productos);
     const carrito = computed(() => store.state.carrito);
-
     return {
       productos,
       carrito,
